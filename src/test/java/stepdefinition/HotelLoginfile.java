@@ -16,7 +16,7 @@ public class HotelLoginfile {
 
 WebDriver driver;
 	
-	String ExpectedText = "Hello vasuvespag";
+	String ExpectedText = " Hello vasuvespag ";
 	@Before
 	public void before() {
 		driver = new ChromeDriver();
