@@ -76,6 +76,7 @@ WebDriver driver;
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 		driver.findElement(By.id("Submit")).click();
+		System.out.println("Login successful");
 	}
 
 	@Then("I am able to find hotels")
